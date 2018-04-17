@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ title }}</title>
+	<link rel="ico" type="image/png" href="favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+  
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<header class="header">
+		<div class="middle">
+			<div class="logo">
+				<a href="/"><img src="img/logo.jpg" alt="pictures" class="logo__img"></a>
+			</div>
+			<div class="header__info-block">
+				<div class="contact__form">
+					<a href="tel:88002000600" class="phone"><i class="small material-icons">call</i>  8 800 2000 600</a>
+					<a href="#" class="adress"><i class="small material-icons">explore</i>  г.Москва ул.Дрозда д. 5, офис 107</a>
+					<a href="mailto:info@ya.ru" class="email"><i class="small material-icons">email</i>  info@yandex.ru</a>
+				</div>
+				<!-- Dropdown Structure -->
+				
+				
+				<nav class="header-menu">
+					<div class="nav-wrapper">
+						<!--mobile-->
+							<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+						<!--mobile-->
+						<ul class="right hide-on-med-and-down" id="slide-out">
+						<!--Info-MENU-->
+						<li class="user-infolist"><div class="user-view">
+							<div class="background">
+								<img src="img/bg_menu.jpg">
+							</div>
+							<a href="tel:88002000600" class="phone white-text"> 8 800 2000 600</a>
+							<a href="mailto:info@ya.ru" class="white-text email"> info@yandex.ru</a>
+						</div>
+						</li>
+						<!--Info-MENU-->
+							<!-- Dropdown Trigger -->
+							<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">О нас<i class="material-icons right">arrow_drop_down</i></a></li>
+							<li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Отчетность<i class="material-icons right">arrow_drop_down</i></a></li>
+							<li><a class="dropdown-trigger" href="#!" data-target="dropdown3">Общение<i class="material-icons right">arrow_drop_down</i></a></li>
+							<li><a class="dropdown-trigger" href="#!" data-target="dropdown4">Информация<i class="material-icons right">arrow_drop_down</i></a></li>
+							<li><a href="#!">Должники</a></li>
+							<li><a class="dropdown-trigger" href="#!" data-target="dropdown5">Наши проекты<i class="material-icons right">arrow_drop_down</i></a></li>
+							<li><a class="sidenav-close blue lighten-3" href="#!">Закрыть меню</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main >
+			<div class="container">
+	<div class="row">
+
+		<div class="row">
+		<div class="col l12 s12">
+				<div class="s12 l6">
+					<span>Пользователь: [[!+modx.user.username]] </span>
+						<div class="loginMessage">[[+errors]]</div>
+				</div>
+				<div class="s12 l6">
+						<span>Почта: [[!+modx.user.email]] </span>
+							<div class="loginMessage">[[+errors]]</div>
+					</div>
+		</div>
+			<hr style="margin-top:8px; margin-bottom:8px;">
+		</div>
+		<div class="row">
+			<div class="col s6 l3">
+					<i class="material-icons">add</i><a href="[[+logoutUrl]]" title="[[+actionMsg]]">[[+actionMsg]]</a>
+			</div>
+			<div class="col s6 l3">
+					<i class="material-icons">add</i><a href="[[~33]]" title="Изменение пароля">Изменение пароля</a>
+			</div>
+			<div class="col s6 l3">
+					<i class="material-icons">add</i> <a href="[[~30]]" title="Личный кабинет">Личный кабинет</a>
+			</div>
+			<div class="col s6 l3">
+					<i class="material-icons">add</i> <a href="[[~34]]" title="Редактирование данных">Редактирование данных</a>
+			</div>
+		</div>
+
+			<!--<form class="col s12 l12" action="[[~[[*id]]]]" method="POST">
+						<div class="row">
+								<div class="input-field col s12">
+									<input type="email" name="username" class="validate">
+									<label for="email">Электронная почта</label>
+									[[+loginfp.errors]]
+								</div>
+							</div>
+						<div class="row">
+							<div class="input-field col s12">
+									<input type="hidden" name="forgotpass" value="1">
+									<input type="submit" name="login_fp" class="btn btn-success pull-right" value="Сбросить пароль">
+									<label>Нажмите кнопку, и на выбранную электронную почту придет письмо для восстановления пароля.</label>
+								</div>
+						</div>
+						
+					</form>-->
+					<!--<h5>[[+actionMsg]]</h5>
+					<form class="col s6 l6 push-l3" action="[[~[[*id]]]]" method="POST">
+								<div class="row">
+									<div class="input-field col s12">
+										<input type="text" class="validate" name="username" id="username">
+										<label for="first_name">[[%login.username]]</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="input-field col s12">
+										<input id="password" type="password" name="password" class="validate">
+										<label for="password">[[%login.password]]</label>
+									</div>
+								</div>
+								<div class="row">
+										<input class="returnUrl" type="hidden" name="returnUrl" value="[[+request_uri]]" />
+										<input class="loginLoginValue" type="hidden" name="service" value="login">
+								</div>
+								<div class="row">
+										<div class="input-field col s12">
+												<input type="submit" value="[[+actionMsg]]" name="Login" id="Login" class="btn btn-primary pull-right">
+										</div>
+									</div>
+									<div class="row">
+											<div class="input-field col s12">
+													<p><a href="[[~32]]" class="btn btn-link pull-right">Зарегистрироваться</a></p>
+													<p><a href="[[~32]]" class="btn btn-link pull-right">Забыли пароль?</a></p>
+											</div>
+										</div>
+								
+							</form>-->
+
+			<!--<form class="col s6 l6 push-l3" action="[[~[[*id]]]]" method="POST" id="register_form">
+				<div class="row">
+						<label class="col-xs-4 control-label">Выберите тип учетной записи</label>
+					<label>
+						<input class="with-gap" name="group3" type="radio" checked id="reg_type1" value="Readers" 
+						[[!+reg.reg_type:is=`Readers`:then=`checked`:else=``:default=`checked`]]/>
+						<span>Житель дома</span>
+					</label>
+				</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<input  id="first_name" type="text" class="validate" name="fullname" value="[[!+reg.fullname]]">
+							<label for="first_name">Представьтесь Ф.И.О:</label>
+							[[!+reg.error.fullname:notempty=`<div class="alert alert-danger">[[!+reg.error.fullname]]</div>`]]
+						</div>
+					</div>
+					<div class="row">
+							<div class="input-field col s12">
+								<input id="email" type="email" name="email" class="validate" value="[[!+reg.email]]">
+								<label for="email">Электронная почта:</label>
+								[[!+reg.error.email:notempty=`<div class="alert alert-danger">[[!+reg.error.email]]</div>`]]
+							</div>
+						</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="password" type="password" name="password" class="validate">
+							<label for="password">Пароль:</label>
+							[[!+reg.error.password:notempty=`<div class="alert alert-danger">[[!+reg.error.password]]</div>`]]
+						</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="password" type="password" name="password_confirm" class="validate">
+							<label for="password">Повторите пароль:</label>
+							[[!+reg.error.password_confirm:notempty=`<div class="alert alert-danger">[[!+reg.error.password_confirm]]</div>`]]
+						</div>
+					</div>
+					<div class="row">
+							<div class="input-field col s12">
+									<input type="submit" name="register-btn" class="btn btn-success pull-right" value="Зарегистрироваться">
+							</div>
+						</div>
+					
+				</form>-->
+	</div>
+
+</div>
+	</main>
+<footer class="page-footer blue darken-1">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12 ">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2018 Copyright
+            <a class="grey-text text-lighten-4 right" href="#!">Design Polevoy</a>
+            </div>
+          </div>
+        </footer>
+<script src="js/libs.min.js"></script>	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

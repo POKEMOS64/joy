@@ -1,0 +1,1547 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ title }}</title>
+	<link rel="ico" type="image/png" href="favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+  
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<header class="header">
+		<div class="middle">
+			<div class="logo">
+				<a href="/"><img src="img/logo.jpg" alt="pictures" class="logo__img"></a>
+			</div>
+			<div class="header__info-block">
+				<div class="contact__form">
+					<a href="tel:88002000600" class="phone"><i class="small material-icons">call</i>  8 800 2000 600</a>
+					<a href="#" class="adress"><i class="small material-icons">explore</i>  г.Москва ул.Дрозда д. 5, офис 107</a>
+					<a href="mailto:info@ya.ru" class="email"><i class="small material-icons">email</i>  info@yandex.ru</a>
+				</div>
+				<!-- Dropdown Structure -->
+				<ul id="dropdown1" class="dropdown-content">
+					<li class="divider"></li>
+					<li><a href="about.html">О нас</a></li>
+					<li class="divider"></li>
+					<li><a href="#!">Контакты</a></li>
+					<li class="divider"></li>
+					<li><a href="#!">Уставные документы</a></li>
+					<li class="divider"></li>
+					<li><a href="#!">Должностные инструкции персонала ТСЖ</a></li>
+				</ul>
+				<ul id="dropdown2" class="dropdown-content">
+					<li class="divider"></li>
+					<li><a href="doc.html">Отчетность</a></li>
+					<li class="divider"></li>
+					<li><a href="doc-1.html">Годовая отчетность</a></li>
+					<li class="divider"></li>
+					<li><a href="#!">Расчеты с ресурсными организациями</a></li>
+					<li class="divider"></li>
+					<li><a href="#!">Ежемесячная отчетность</a></li>
+					<li class="divider"></li>
+					<li><a href="#!">Договоры с ресурсными организациями </a></li>
+					<li class="divider"></li>
+					<li><a href="#!">Содержание и обслуживание дома</a></li>
+
+				</ul>
+				<ul id="dropdown3" class="dropdown-content">
+					<li class="divider"></li>
+					<li><a href="#!">Фотогалерея</a></li>
+					<li class="divider"></li>
+					<li><a href="#!">Видео</a></li>
+					<li class="divider"></li>
+					<li><a href="#!">Форум</a></li>
+				</ul>
+				<ul id="dropdown4" class="dropdown-content">
+					<li class="divider"></li>
+					<li><a href="info.html">Информация</a></li>
+					<li class="divider"></li>
+					
+					<li><a href="#!">Новости</a></li>
+					<li class="divider"></li>
+					<li><a href="#!">Собрания собственников</a></li>
+					<li class="divider"></li>
+					<li><a href="#!">Конкурсы</a></li>
+				</ul>
+				<ul id="dropdown5" class="dropdown-content">
+					<li class="divider"></li>
+					<li><a href="#!">Акция на полуострове</a></li>
+					<li class="divider"></li>
+					<li><a href="#!">Шлагбаум</a></li>
+					<li class="divider"></li>
+					<li><a href="#!">Межевание</a></li>
+				</ul>
+				
+				<nav class="header-menu">
+					<div class="nav-wrapper">
+						<!--mobile-->
+							<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+						<!--mobile-->
+						<ul class="right hide-on-med-and-down" id="slide-out">
+						<!--Info-MENU-->
+						<li class="user-infolist"><div class="user-view">
+							<div class="background">
+								<img src="img/bg_menu.jpg">
+							</div>
+							<a href="tel:88002000600" class="phone white-text"> 8 800 2000 600</a>
+							<a href="mailto:info@ya.ru" class="white-text email"> info@yandex.ru</a>
+						</div>
+						</li>
+						<!--Info-MENU-->
+							<!-- Dropdown Trigger -->
+							<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">О нас<i class="material-icons right">arrow_drop_down</i></a></li>
+							<li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Отчетность<i class="material-icons right">arrow_drop_down</i></a></li>
+							<li><a class="dropdown-trigger" href="#!" data-target="dropdown3">Общение<i class="material-icons right">arrow_drop_down</i></a></li>
+							<li><a class="dropdown-trigger" href="#!" data-target="dropdown4">Информация<i class="material-icons right">arrow_drop_down</i></a></li>
+							<li><a href="#!">Должники</a></li>
+							<li><a class="dropdown-trigger" href="#!" data-target="dropdown5">Наши проекты<i class="material-icons right">arrow_drop_down</i></a></li>
+							<li><a class="sidenav-close blue lighten-3" href="#!">Закрыть меню</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main >
+		<div class="container border-fix">
+				<ul class="B_crumbBox">
+					<li class="B_firstCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+						<a class="B_crumb" itemprop="url" rel="Отчетность" href="otchetnost/"><span itemprop="title">Отчетность</span></a>
+					</li>
+					<i class="material-icons">keyboard_arrow_right</i> <li class="B_lastCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a class="B_currentCrumb" itemprop="url" rel="Годовая отчётность" href="otchetnost/godovaya-otchyotnost/"><span itemprop="title">Годовая отчётность</span></a></li>
+				 </ul>
+			<div class="row">
+				<div class="col l12 s12">
+					<div class="table_js"> 
+    
+						<table class="highlight tabs_js" border="0"><tbody><tr></tr><tr><td>№ п/п
+						</td><td>Адрес
+						</td><td>Серия проекта/Тип строения
+						</td><td>Владелец дома (балансодержатель)
+						</td><td>Гд постройки/реконструкции
+						</td><td>Строительный объем (куб.м.)
+						</td><td>Количество
+						</td><td>Площадь (м2)
+						</td><td>Материал стен
+						</td><td>
+						</td><td>
+						</td><td>
+						</td><td>
+						</td><td>
+						</td><td>
+						</td></tr><tr><td>этажи
+						</td><td>секции
+						</td><td>квартиры
+						</td><td>общая
+						</td><td>Жилая
+						</td><td>нежилая
+						</td><td>Фасада
+						</td><td>Застройки
+						</td><td>
+						</td><td>
+						</td><td>
+						</td><td>
+						</td><td>
+						</td><td>
+						</td><td>
+						</td></tr><tr><td>1
+						</td><td>Беломорская ул., д.1
+						</td><td>Инд.
+						</td><td>Департ.
+						</td><td>1996
+						</td><td>112271
+						</td><td>16
+						</td><td>5
+						</td><td>231
+						</td><td>18232.9
+						</td><td>18232.9
+						</td><td>1602.6
+						</td><td>
+						</td><td>23309.1
+						</td><td>кирпичные
+						</td></tr><tr><td>2
+						</td><td>Беломорская ул., д.3 к.1
+						</td><td>И-209-А
+						</td><td>Департ.
+						</td><td>1974
+						</td><td>17843
+						</td><td>14
+						</td><td>1
+						</td><td>98
+						</td><td>4226.1
+						</td><td>2633
+						</td><td>0
+						</td><td>3826
+						</td><td>4747.5
+						</td><td>жел/бетон
+						</td></tr><tr><td>3
+						</td><td>Беломорская ул., д.4
+						</td><td>П-18
+						</td><td>ЖСК
+						</td><td>1965
+						</td><td>15127
+						</td><td>12
+						</td><td>1
+						</td><td>84
+						</td><td>3615.4
+						</td><td>2273
+						</td><td>0
+						</td><td>3200
+						</td><td>4052.2
+						</td><td>блочные
+						</td></tr><tr><td>4
+						</td><td>Беломорская ул., д.7 к.1
+						</td><td>П-18-0112
+						</td><td>ТСЖ
+						</td><td>1962
+						</td><td>11152
+						</td><td>9
+						</td><td>1
+						</td><td>72
+						</td><td>2582.3
+						</td><td>1676
+						</td><td>0
+						</td><td>
+						</td><td>3154.9
+						</td><td>жел/бетон
+						</td></tr><tr><td>5
+						</td><td>Беломорская ул.. Д.7 к.2
+						</td><td>П-18-0112
+						</td><td>ТСЖ
+						</td><td>1962
+						</td><td>10510
+						</td><td>9
+						</td><td>1
+						</td><td>71
+						</td><td>2529.2
+						</td><td>1651
+						</td><td>34.5
+						</td><td>
+						</td><td>3133.3
+						</td><td>жел/бетон
+						</td></tr><tr><td>6
+						</td><td>Беломорская ул., д.7 к.3
+						</td><td>П-18-0112
+						</td><td>ТСЖ
+						</td><td>1962
+						</td><td>11026
+						</td><td>9
+						</td><td>1
+						</td><td>72
+						</td><td>2549.4
+						</td><td>1668
+						</td><td>17.6
+						</td><td>
+						</td><td>3124.7
+						</td><td>жел/бетон
+						</td></tr><tr><td>7
+						</td><td>Беломорская ул., д.8
+						</td><td>П-18
+						</td><td>ЖСК
+						</td><td>1965
+						</td><td>15115
+						</td><td>12
+						</td><td>1
+						</td><td>84
+						</td><td>3619
+						</td><td>2269
+						</td><td>0
+						</td><td>3134
+						</td><td>4032.4
+						</td><td>блочные
+						</td></tr><tr><td>8
+						</td><td>Беломорская ул., д.8 к.1
+						</td><td>Инд.
+						</td><td>Департ.
+						</td><td>2014
+						</td><td>55873
+						</td><td>24
+						</td><td>2
+						</td><td>212
+						</td><td>11301.2
+						</td><td>5539.9
+						</td><td>5703.1
+						</td><td>
+						</td><td>5579
+						</td><td>жел/бетон с ут.
+						</td></tr><tr><td>9
+						</td><td>Беломорская ул., д.10 к.2
+						</td><td>П-68-01/1610
+						</td><td>ЖСК
+						</td><td>1979
+						</td><td>25257
+						</td><td>16
+						</td><td>1
+						</td><td>110
+						</td><td>5275
+						</td><td>3235
+						</td><td>138.7
+						</td><td>0
+						</td><td>6252.6
+						</td><td>жел/бетон
+						</td></tr><tr><td>10
+						</td><td>Беломорская ул., д.10 к.3
+						</td><td>П-29
+						</td><td>Департ.
+						</td><td>1963
+						</td><td>19438
+						</td><td>9
+						</td><td>3
+						</td><td>106
+						</td><td>4454.2
+						</td><td>2978
+						</td><td>174.5
+						</td><td>0
+						</td><td>5053.7
+						</td><td>кирпичные
+						</td></tr><tr><td>11
+						</td><td>Беломорская ул., д.11 к.2
+						</td><td>ГМС-2001
+						</td><td>Департ.
+						</td><td>2006
+						</td><td>37286
+						</td><td>17
+						</td><td>2
+						</td><td>134
+						</td><td>6727.5
+						</td><td>3603.9
+						</td><td>69.7
+						</td><td>0
+						</td><td>8299.9
+						</td><td>панельные
+						</td></tr><tr><td>12
+						</td><td>Беломорская ул., д.12
+						</td><td>П-18
+						</td><td>ЖСК
+						</td><td>1963
+						</td><td>14980
+						</td><td>12
+						</td><td>1
+						</td><td>84
+						</td><td>3623.8
+						</td><td>2268
+						</td><td>0
+						</td><td>3170
+						</td><td>4066.4
+						</td><td>панельные
+						</td></tr><tr><td>13
+						</td><td>Беломорская ул., д.12 к.1
+						</td><td>П ЗМ III-к.
+						</td><td>Департ.
+						</td><td>2009
+						</td><td>61968
+						</td><td>23
+						</td><td>2
+						</td><td>176
+						</td><td>12947.9
+						</td><td>7282
+						</td><td>781.4
+						</td><td>0
+						</td><td>16392.5
+						</td><td>жел/бетон
+						</td></tr><tr><td>14
+						</td><td>Беломорская ул, д.13 к.1
+						</td><td>Индив.
+						</td><td>Департ.
+						</td><td>2009
+						</td><td>196470
+						</td><td>25
+						</td><td>6
+						</td><td>622
+						</td><td>35786.3
+						</td><td>20391
+						</td><td>595.8
+						</td><td>0
+						</td><td>46011.6
+						</td><td>жел/бетон
+						</td></tr><tr><td>15
+						</td><td>Беломорская ул., д.13 к.2
+						</td><td>ГМС-2001
+						</td><td>Департ.
+						</td><td>2006
+						</td><td>36588
+						</td><td>17
+						</td><td>2
+						</td><td>134
+						</td><td>6716.3
+						</td><td>3621
+						</td><td>66.9
+						</td><td>0
+						</td><td>8579.2
+						</td><td>жел/бетон
+						</td></tr><tr><td>16
+						</td><td>Беломорская ул., д.14 к.1
+						</td><td>П ЗМ III-к.
+						</td><td>Департ.
+						</td><td>2009
+						</td><td>37837
+						</td><td>17
+						</td><td>2
+						</td><td>136
+						</td><td>8679.9
+						</td><td>5274
+						</td><td>53.7
+						</td><td>759
+						</td><td>10029.4
+						</td><td>жел/бетон
+						</td></tr><tr><td>17
+						</td><td>Беломорская ул., д.16
+						</td><td>П-68-01/10-10
+						</td><td>ТСЖ
+						</td><td>1973
+						</td><td>23057
+						</td><td>16
+						</td><td>1
+						</td><td>111
+						</td><td>5307.8
+						</td><td>3298
+						</td><td>0
+						</td><td>0
+						</td><td>6165.1
+						</td><td>панельные
+						</td></tr><tr><td>18
+						</td><td>Беломорская ул., д.18 к.1
+						</td><td>П-18
+						</td><td>ЖСК
+						</td><td>1963
+						</td><td>11282
+						</td><td>9
+						</td><td>1
+						</td><td>71
+						</td><td>2602
+						</td><td>1663
+						</td><td>0
+						</td><td>0
+						</td><td>2941.6
+						</td><td>блочные
+						</td></tr><tr><td>19
+						</td><td>Беломорская ул., д.18 к.2
+						</td><td>П-18
+						</td><td>ЖСК
+						</td><td>1963
+						</td><td>11230
+						</td><td>9
+						</td><td>1
+						</td><td>72
+						</td><td>2606
+						</td><td>1664
+						</td><td>0
+						</td><td>0
+						</td><td>2969.9
+						</td><td>блочные
+						</td></tr><tr><td>20
+						</td><td>Беломорская ул., д.18 к.3
+						</td><td>П-18
+						</td><td>ЖСК
+						</td><td>1963
+						</td><td>11323
+						</td><td>9
+						</td><td>1
+						</td><td>72
+						</td><td>2583
+						</td><td>1647
+						</td><td>0
+						</td><td>0
+						</td><td>2925.6
+						</td><td>блочные
+						</td></tr><tr><td>21
+						</td><td>Беломорская ул., д.18 к.4
+						</td><td>П-18
+						</td><td>ЖСК
+						</td><td>1963
+						</td><td>11230
+						</td><td>9
+						</td><td>1
+						</td><td>72
+						</td><td>2586
+						</td><td>1693
+						</td><td>303.9
+						</td><td>0
+						</td><td>3267
+						</td><td>блочные
+						</td></tr><tr><td>22
+						</td><td>Беломорская ул., д.20 к.1
+						</td><td>П44К-1/17
+						</td><td>Департ.
+						</td><td>2008
+						</td><td>41956
+						</td><td>13-15-17
+						</td><td>3
+						</td><td>171
+						</td><td>8592.1
+						</td><td>4659
+						</td><td>366.7
+						</td><td>
+						</td><td>10487.6
+						</td><td>ж/б панели
+						</td></tr><tr><td>23
+						</td><td>Беломорская ул., д.20 к.2
+						</td><td>П44К/17 III
+						</td><td>Департ.
+						</td><td>2008
+						</td><td>43414
+						</td><td>17
+						</td><td>3
+						</td><td>171
+						</td><td>8595.7
+						</td><td>4655
+						</td><td>366.5
+						</td><td>
+						</td><td>10590.9
+						</td><td>ж/б панели
+						</td></tr><tr><td>24
+						</td><td>Беломорская ул., д.20 к.3
+						</td><td>П44К/17
+						</td><td>Департ.
+						</td><td>2009
+						</td><td>42272
+						</td><td>13-15-17
+						</td><td>3
+						</td><td>171
+						</td><td>8598.1
+						</td><td>4661
+						</td><td>348.6
+						</td><td>
+						</td><td>10519
+						</td><td>панельные
+						</td></tr><tr><td>25
+						</td><td>Беломорская ул., д.24 к.3
+						</td><td>Индив-IV к.
+						</td><td>Департ.
+						</td><td>2010
+						</td><td>68712
+						</td><td>26
+						</td><td>1
+						</td><td>229
+						</td><td>12732.4
+						</td><td>7644
+						</td><td>467
+						</td><td>
+						</td><td>17520.5
+						</td><td>жел/бетон
+						</td></tr><tr><td>26
+						</td><td>Беломорская ул., д.26
+						</td><td>П55
+						</td><td>Департ.
+						</td><td>1982
+						</td><td>67877
+						</td><td>12
+						</td><td>5
+						</td><td>208
+						</td><td>12677.2
+						</td><td>7696
+						</td><td>1130.6
+						</td><td>15876
+						</td><td>15846.4
+						</td><td>блочные
+						</td></tr><tr><td>27
+						</td><td>Валдайский пр., д.4
+						</td><td>И-209-А
+						</td><td>Департ.
+						</td><td>1973
+						</td><td>19338
+						</td><td>14
+						</td><td>1
+						</td><td>112
+						</td><td>4204.8
+						</td><td>2486.6
+						</td><td>0
+						</td><td>3998
+						</td><td>4738.7
+						</td><td>блочные
+						</td></tr><tr><td>28
+						</td><td>Валдайский пр, д.7
+						</td><td>Инд
+						</td><td>ЖСК
+						</td><td>1963
+						</td><td>17721
+						</td><td>8
+						</td><td>3
+						</td><td>96
+						</td><td>4018.3
+						</td><td>2691
+						</td><td>0
+						</td><td>0
+						</td><td>4483.3
+						</td><td>кирпичные
+						</td></tr><tr><td>29
+						</td><td>Валдайский пр., д.10 к.1
+						</td><td>Индив-IV к.
+						</td><td>Департ.
+						</td><td>2008
+						</td><td>138231
+						</td><td>25
+						</td><td>4
+						</td><td>456
+						</td><td>25936
+						</td><td>13610
+						</td><td>2354.6
+						</td><td>0
+						</td><td>35798.5
+						</td><td>жел/бетон
+						</td></tr><tr><td>30
+						</td><td>Валдайский пр., д.11
+						</td><td>Инд
+						</td><td>ЖСК
+						</td><td>1963
+						</td><td>17721
+						</td><td>8
+						</td><td>3
+						</td><td>96
+						</td><td>3979.4
+						</td><td>2691
+						</td><td>0
+						</td><td>
+						</td><td>4770.9
+						</td><td>кирпичные
+						</td></tr><tr><td>31
+						</td><td>Валдайский пр., д.12
+						</td><td>II-68/12к
+						</td><td>Департ.
+						</td><td>1973
+						</td><td>39273
+						</td><td>12
+						</td><td>2
+						</td><td>214
+						</td><td>8764.2
+						</td><td>5383
+						</td><td>13.7
+						</td><td>
+						</td><td>10356.6
+						</td><td>блочные
+						</td></tr><tr><td>32
+						</td><td>Валдайский пр., д.9А к.1
+						</td><td>ПМЗ
+						</td><td>Департ.
+						</td><td>2005
+						</td><td>58710
+						</td><td>17
+						</td><td>3
+						</td><td>200
+						</td><td>12836.2
+						</td><td>7795.3
+						</td><td>72.5
+						</td><td>
+						</td><td>14779.9
+						</td><td>жел/бетон
+						</td></tr><tr><td>33
+						</td><td>Валдайский пр., д.13А к.1
+						</td><td>ПЗМ
+						</td><td>ТСЖ
+						</td><td>2005
+						</td><td>58070
+						</td><td>17
+						</td><td>3
+						</td><td>204
+						</td><td>13053.6
+						</td><td>7934.8
+						</td><td>88.9
+						</td><td>
+						</td><td>15713.4
+						</td><td>жел/бетон
+						</td></tr><tr><td>34
+						</td><td>Валдайский пр., д.17А к.1
+						</td><td>ПМЗ
+						</td><td>ТСЖ
+						</td><td>2005
+						</td><td>57989
+						</td><td>17
+						</td><td>3
+						</td><td>204
+						</td><td>13020.9
+						</td><td>7921.5
+						</td><td>0
+						</td><td>
+						</td><td>14898.2
+						</td><td>жел/бетон
+						</td></tr><tr><td>35
+						</td><td>Валдайский пр., д.15
+						</td><td>Инд
+						</td><td>ЖСК
+						</td><td>1964
+						</td><td>17729
+						</td><td>8
+						</td><td>3
+						</td><td>96
+						</td><td>4013.2
+						</td><td>2747
+						</td><td>0
+						</td><td>3515
+						</td><td>4412.9
+						</td><td>кирпичные
+						</td></tr><tr><td>36
+						</td><td>Валдайский пр., д.22
+						</td><td>И 209-А
+						</td><td>Департ.
+						</td><td>1970
+						</td><td>19236
+						</td><td>14
+						</td><td>1
+						</td><td>98
+						</td><td>4237.6
+						</td><td>2652
+						</td><td>1948.6
+						</td><td>
+						</td><td>6702.2
+						</td><td>жел/бетон
+						</td></tr><tr><td>37
+						</td><td>Ленинградское ш., д.94 к.3
+						</td><td>Инд
+						</td><td>ТСЖ
+						</td><td>1954
+						</td><td>14292
+						</td><td>5
+						</td><td>2
+						</td><td>33
+						</td><td>2062.1
+						</td><td>1260
+						</td><td>2011.7
+						</td><td>0
+						</td><td>4290.1
+						</td><td>кирпичные
+						</td></tr><tr><td>38
+						</td><td>Ленинградское ш., д.98 к.3
+						</td><td>Инд
+						</td><td>ТСЖ
+						</td><td>1961
+						</td><td>16279
+						</td><td>5
+						</td><td>4
+						</td><td>80
+						</td><td>3373.3
+						</td><td>2126
+						</td><td>0
+						</td><td>3020
+						</td><td>3706.5
+						</td><td>кирпичные
+						</td></tr><tr><td>39
+						</td><td>Ленинградское ш., д.104
+						</td><td>Башня Вулых
+						</td><td>ЖСК
+						</td><td>1968
+						</td><td>28331
+						</td><td>14
+						</td><td>1
+						</td><td>112
+						</td><td>5489.8
+						</td><td>3196
+						</td><td>109.3
+						</td><td>6060
+						</td><td>6752.5
+						</td><td>кирпичные
+						</td></tr><tr><td>40
+						</td><td>Ленинградское ш., д.108 к.1
+						</td><td>ПЗМ
+						</td><td>Департ.
+						</td><td>2007
+						</td><td>53111
+						</td><td>43070
+						</td><td>3
+						</td><td>184
+						</td><td>11687.5
+						</td><td>7081.6
+						</td><td>194.1
+						</td><td>13483.8
+						</td><td>13526
+						</td><td>панельные
+						</td></tr><tr><td>41
+						</td><td>Ленинградское ш., д.108 к.2
+						</td><td>ПЗМ
+						</td><td>Департ.
+						</td><td>2007
+						</td><td>52321
+						</td><td>43070
+						</td><td>3
+						</td><td>184
+						</td><td>11689.2
+						</td><td>7100.5
+						</td><td>304.5
+						</td><td>13425
+						</td><td>13648.1
+						</td><td>панельные
+						</td></tr><tr><td>42
+						</td><td>Ленинградское ш., д.108 к.3
+						</td><td>П-44К
+						</td><td>Департ.
+						</td><td>2007
+						</td><td>32083
+						</td><td>17
+						</td><td>2
+						</td><td>128
+						</td><td>6197.7
+						</td><td>3331.5
+						</td><td>0
+						</td><td>0
+						</td><td>7637.3
+						</td><td>жел/бетон
+						</td></tr><tr><td>43
+						</td><td>Ленинградское ш., д.110/2
+						</td><td>П-18
+						</td><td>ЖСК
+						</td><td>1965
+						</td><td>15119
+						</td><td>12
+						</td><td>1
+						</td><td>84
+						</td><td>3674
+						</td><td>2309
+						</td><td>60.4
+						</td><td>3233
+						</td><td>4138.3
+						</td><td>жел/бетон
+						</td></tr><tr><td>44
+						</td><td>Ленинградское ш., д.112/1 к.1
+						</td><td>Инд II-к
+						</td><td>Департ.
+						</td><td>1966
+						</td><td>58868
+						</td><td>9
+						</td><td>8
+						</td><td>281
+						</td><td>12475.8
+						</td><td>8620
+						</td><td>417.3
+						</td><td>0
+						</td><td>13779.9
+						</td><td>кирпичные
+						</td></tr><tr><td>45
+						</td><td>Ленинградское ш., д.112 к.2
+						</td><td>Инд II-к
+						</td><td>Департ.
+						</td><td>1966
+						</td><td>59213
+						</td><td>9
+						</td><td>8
+						</td><td>281
+						</td><td>12496
+						</td><td>8677.4
+						</td><td>1167
+						</td><td>0
+						</td><td>14101.6
+						</td><td>кирпичные
+						</td></tr><tr><td>46
+						</td><td>Ленинградское ш., д.112 к.3
+						</td><td>Инд II-к
+						</td><td>ЖСК
+						</td><td>1965
+						</td><td>63192
+						</td><td>9
+						</td><td>8
+						</td><td>284
+						</td><td>12400
+						</td><td>8566
+						</td><td>2134.6
+						</td><td>10439
+						</td><td>14820.1
+						</td><td>кирпичные
+						</td></tr><tr><td>47
+						</td><td>Ленинградское ш., д.112 к.4
+						</td><td>Инд II-к
+						</td><td>ЖСК
+						</td><td>1966
+						</td><td>66534
+						</td><td>9
+						</td><td>8
+						</td><td>284
+						</td><td>12418.4
+						</td><td>8624
+						</td><td>500.3
+						</td><td>0
+						</td><td>15791.4
+						</td><td>кирпичные
+						</td></tr><tr><td>48
+						</td><td>Ленинградское ш., д.118 к.1
+						</td><td>Индив. IV-к.
+						</td><td>Департ.
+						</td><td>2009
+						</td><td>44056
+						</td><td>22
+						</td><td>1
+						</td><td>147
+						</td><td>7591.8
+						</td><td>4032
+						</td><td>912.2
+						</td><td>0
+						</td><td>10389.7
+						</td><td>жел/бетон
+						</td></tr><tr><td>49
+						</td><td>Ленинградское ш., д.130 к.2
+						</td><td>Инд
+						</td><td>Департ.
+						</td><td>2007
+						</td><td>41358
+						</td><td>22
+						</td><td>1
+						</td><td>147
+						</td><td>7580
+						</td><td>4042
+						</td><td>14.9
+						</td><td>8985.6
+						</td><td>10226.9
+						</td><td>жел/бетон
+						</td></tr><tr><td>50
+						</td><td>Ленинградское ш., д.132
+						</td><td>П-44/2-16II k II
+						</td><td>Департ.
+						</td><td>1978
+						</td><td>35201
+						</td><td>16
+						</td><td>2
+						</td><td>128
+						</td><td>8163.7
+						</td><td>4958
+						</td><td>14.8
+						</td><td>0
+						</td><td>9360.5
+						</td><td>жел/бетон
+						</td></tr><tr><td>51
+						</td><td>Ленинградское ш., д.134
+						</td><td>III кат.
+						</td><td>Департ.
+						</td><td>1978
+						</td><td>35305
+						</td><td>16
+						</td><td>2
+						</td><td>128
+						</td><td>8127.2
+						</td><td>4924
+						</td><td>33
+						</td><td>0
+						</td><td>9319.3
+						</td><td>жел/бетон
+						</td></tr><tr><td>52
+						</td><td>Прибрежный проезд, д.1
+						</td><td>П 43/16
+						</td><td>Департ.
+						</td><td>1977
+						</td><td>23976
+						</td><td>16
+						</td><td>1
+						</td><td>127
+						</td><td>5821.5
+						</td><td>3354.7
+						</td><td>37
+						</td><td>0
+						</td><td>7156
+						</td><td>жел/бетон
+						</td></tr><tr><td>53
+						</td><td>Прибрежный проезд, д.3
+						</td><td>П-43/16
+						</td><td>ЖСК
+						</td><td>1976
+						</td><td>1267
+						</td><td>16
+						</td><td>1
+						</td><td>127
+						</td><td>5804
+						</td><td>3353
+						</td><td>17.7
+						</td><td>
+						</td><td>7173
+						</td><td>жел/бетон
+						</td></tr><tr><td>54
+						</td><td>Прибрежный проезд, д.4
+						</td><td>П-3
+						</td><td>Департ.
+						</td><td>1980
+						</td><td>36263
+						</td><td>16
+						</td><td>2
+						</td><td>128
+						</td><td>8165.6
+						</td><td>4949
+						</td><td>33
+						</td><td>0
+						</td><td>9386
+						</td><td>панельные
+						</td></tr><tr><td>55
+						</td><td>Прибрежный проезд, д.5
+						</td><td>П-43/16
+						</td><td>ЖСК
+						</td><td>1976
+						</td><td>23976
+						</td><td>16
+						</td><td>1
+						</td><td>127
+						</td><td>5808
+						</td><td>3353
+						</td><td>0
+						</td><td>
+						</td><td>6289
+						</td><td>жел/бетон
+						</td></tr><tr><td>56
+						</td><td>Прибрежный проезд, д.7
+						</td><td>П-57
+						</td><td>Департ.
+						</td><td>1974
+						</td><td>98644
+						</td><td>12
+						</td><td>10
+						</td><td>478
+						</td><td>23997.3
+						</td><td>15585
+						</td><td>0
+						</td><td>0
+						</td><td>26513.1
+						</td><td>панельные
+						</td></tr><tr><td>57
+						</td><td>Прибрежный проезд, д.8
+						</td><td>П-29
+						</td><td>ЖСК
+						</td><td>1964
+						</td><td>17643
+						</td><td>8
+						</td><td>3
+						</td><td>96
+						</td><td>4019
+						</td><td>2701
+						</td><td>230
+						</td><td>3515
+						</td><td>4470.1
+						</td><td>жел/бетон
+						</td></tr><tr><td>58
+						</td><td>Прибрежный проезд, д.10
+						</td><td>И-209 а
+						</td><td>ЖСК
+						</td><td>1971
+						</td><td>17645
+						</td><td>14
+						</td><td>1
+						</td><td>98
+						</td><td>4220.9
+						</td><td>2651.1
+						</td><td>0
+						</td><td>0
+						</td><td>4963.2
+						</td><td>блочные
+						</td></tr><tr><td>59
+						</td><td>Смольная ул., д.29
+						</td><td>П-27
+						</td><td>ЖСК
+						</td><td>1966
+						</td><td>28756
+						</td><td>9
+						</td><td>4
+						</td><td>144
+						</td><td>6601.3
+						</td><td>4097
+						</td><td>0
+						</td><td>6104
+						</td><td>7286.4
+						</td><td>панельные
+						</td></tr><tr><td>60
+						</td><td>Смольная ул., д.31
+						</td><td>П-28
+						</td><td>ЖСК
+						</td><td>1966
+						</td><td>28922
+						</td><td>9
+						</td><td>4
+						</td><td>144
+						</td><td>6564.6
+						</td><td>4110
+						</td><td>0
+						</td><td>6184
+						</td><td>7249.7
+						</td><td>панельные
+						</td></tr><tr><td>61
+						</td><td>Смольная ул., д.33
+						</td><td>П-49
+						</td><td>ЖСК
+						</td><td>1966
+						</td><td>28980
+						</td><td>9
+						</td><td>4
+						</td><td>144
+						</td><td>6581.9
+						</td><td>4088
+						</td><td>107.2
+						</td><td>0
+						</td><td>7235.8
+						</td><td>панельные
+						</td></tr><tr><td>62
+						</td><td>Смольная ул., д.51 к.1
+						</td><td>П-44Т
+						</td><td>ТСЖ
+						</td><td>2006
+						</td><td>68235
+						</td><td>17
+						</td><td>4
+						</td><td>256
+						</td><td>14279.1
+						</td><td>8113.6
+						</td><td>787.7
+						</td><td>0
+						</td><td>16661.9
+						</td><td>панельные
+						</td></tr><tr><td>63
+						</td><td>Смольная ул., д.51 к.2
+						</td><td>П-44Т 1/17
+						</td><td>ТСЖ
+						</td><td>2007
+						</td><td>74026
+						</td><td>17
+						</td><td>4
+						</td><td>261
+						</td><td>14924.5
+						</td><td>8540
+						</td><td>131.8
+						</td><td>0
+						</td><td>18152.5
+						</td><td>панельные
+						</td></tr><tr><td>64
+						</td><td>Смольная ул., д.51 к.3
+						</td><td>П-44Т
+						</td><td>ТСЖ
+						</td><td>2007
+						</td><td>68860
+						</td><td>17
+						</td><td>4
+						</td><td>268
+						</td><td>14972.6
+						</td><td>8478
+						</td><td>133.5
+						</td><td>0
+						</td><td>17509.3
+						</td><td>панельные
+						</td></tr><tr><td>65
+						</td><td>Смольная ул., д.61 к.1
+						</td><td>Инд
+						</td><td>Департ.
+						</td><td>2012
+						</td><td>195946
+						</td><td>24-25
+						</td><td>6
+						</td><td>620
+						</td><td>33799.7
+						</td><td>18790
+						</td><td>579.6
+						</td><td>
+						</td><td>
+						</td><td>жел/бетон
+						</td></tr><tr><td>66
+						</td><td>Смольная ул., д.65
+						</td><td>П-57-02/12
+						</td><td>Департ.
+						</td><td>1974
+						</td><td>20108
+						</td><td>12
+						</td><td>2
+						</td><td>95
+						</td><td>4806.6
+						</td><td>3139.8
+						</td><td>2.2
+						</td><td>0
+						</td><td>6584
+						</td><td>панельные
+						</td></tr><tr><td>67
+						</td><td>Смольная ул., д.67 к.1
+						</td><td>II -18
+						</td><td>ЖСК
+						</td><td>1964
+						</td><td>10933
+						</td><td>9
+						</td><td>1
+						</td><td>72
+						</td><td>2604
+						</td><td>1696
+						</td><td>0
+						</td><td>2397
+						</td><td>2993.2
+						</td><td>блочные
+						</td></tr><tr><td>68
+						</td><td>Смольная ул., д.67 к.2
+						</td><td>П30
+						</td><td>Департ.
+						</td><td>1987
+						</td><td>33415
+						</td><td>14
+						</td><td>2
+						</td><td>110
+						</td><td>6350.6
+						</td><td>3867
+						</td><td>646.4
+						</td><td>0
+						</td><td>7245.6
+						</td><td>панельные
+						</td></tr><tr><td>69
+						</td><td>Смольная ул., д.67 к.3
+						</td><td>П30
+						</td><td>Департ.
+						</td><td>1986
+						</td><td>29261
+						</td><td>14
+						</td><td>2
+						</td><td>111
+						</td><td>6385.9
+						</td><td>3883
+						</td><td>16.3
+						</td><td>0
+						</td><td>7902.6
+						</td><td>панельные
+						</td></tr><tr><td>70
+						</td><td>Смольная ул., д.69
+						</td><td>П-18
+						</td><td>ЖСК
+						</td><td>1963
+						</td><td>11047
+						</td><td>9
+						</td><td>1
+						</td><td>72
+						</td><td>2582
+						</td><td>1689
+						</td><td>0
+						</td><td>2397
+						</td><td>2645.4
+						</td><td>блочные
+						</td></tr><tr><td>71
+						</td><td>Смольная ул., д.71
+						</td><td>П-18
+						</td><td>ЖСК
+						</td><td>1963
+						</td><td>11002
+						</td><td>9
+						</td><td>1
+						</td><td>72
+						</td><td>2570
+						</td><td>1680
+						</td><td>0
+						</td><td>2405
+						</td><td>2966
+						</td><td>блочные
+						</td></tr><tr><td>72
+						</td><td>Смольная ул., д.73
+						</td><td>1-515-03/9
+						</td><td>Департ.
+						</td><td>1979
+						</td><td>22246
+						</td><td>9
+						</td><td>3
+						</td><td>104
+						</td><td>5152.4
+						</td><td>3283.3
+						</td><td>189.9
+						</td><td>4865
+						</td><td>5608.5
+						</td><td>жел/бетон
+						</td></tr><tr><td>73
+						</td><td>Фестивальная ул., д.4
+						</td><td>КОПЭ-85
+						</td><td>Департ.
+						</td><td>1997
+						</td><td>109763
+						</td><td>22 (18-22)
+						</td><td>4
+						</td><td>279
+						</td><td>20856.5
+						</td><td>12520
+						</td><td>3701
+						</td><td>0
+						</td><td>25348.7
+						</td><td>панельные
+						</td></tr><tr><td>74
+						</td><td>Фестивальная ул., д.7
+						</td><td>П-29
+						</td><td>ЖСК
+						</td><td>1964
+						</td><td>28925
+						</td><td>9
+						</td><td>4
+						</td><td>135
+						</td><td>5890
+						</td><td>3577
+						</td><td>274
+						</td><td>0
+						</td><td>6804.1
+						</td><td>кирпичные
+						</td></tr><tr><td>75
+						</td><td>Фестивальная ул., д.9
+						</td><td>Инд.
+						</td><td>Департ.
+						</td><td>1975
+						</td><td>37944
+						</td><td>9
+						</td><td>4
+						</td><td>96
+						</td><td>6102.4
+						</td><td>3706
+						</td><td>1668.1
+						</td><td>
+						</td><td>7313.3
+						</td><td>кирпичные
+						</td></tr><tr><td>76
+						</td><td>Фестивальная ул., д.11
+						</td><td>П-29
+						</td><td>ТСЖ
+						</td><td>1965
+						</td><td>46801
+						</td><td>9
+						</td><td>7
+						</td><td>249
+						</td><td>10474.6
+						</td><td>6929
+						</td><td>1302
+						</td><td>0
+						</td><td>13212.9
+						</td><td>кирпичные
+						</td></tr><tr><td>77
+						</td><td>Фестивальная ул., д.13 к.1
+						</td><td>Инд.
+						</td><td>ЖСК
+						</td><td>1970
+						</td><td>41006
+						</td><td>9
+						</td><td>3
+						</td><td>72
+						</td><td>4804
+						</td><td>2857
+						</td><td>3693.2
+						</td><td>0
+						</td><td>6780.8
+						</td><td>кирпичные
+						</td></tr><tr><td>78
+						</td><td>Фестивальная ул., д.13 к.2
+						</td><td>Башня Вулых
+						</td><td>ЖСК
+						</td><td>1968
+						</td><td>31156
+						</td><td>14
+						</td><td>1
+						</td><td>104
+						</td><td>5054
+						</td><td>3002
+						</td><td>633.3
+						</td><td>0
+						</td><td>9541.4
+						</td><td>кирпичные
+						</td></tr><tr><td>79
+						</td><td>Фестивальная ул., д.13 к.3
+						</td><td>Башня Вулых
+						</td><td>ЖСК
+						</td><td>1967
+						</td><td>29242
+						</td><td>14
+						</td><td>1
+						</td><td>108
+						</td><td>5319.2
+						</td><td>2865
+						</td><td>0
+						</td><td>0
+						</td><td>6732.7
+						</td><td>кирпичные
+						</td></tr><tr><td>80
+						</td><td>Фестивальная ул., д.15 к.1
+						</td><td>Инд.
+						</td><td>Департ.
+						</td><td>1966
+						</td><td>19886
+						</td><td>9
+						</td><td>3
+						</td><td>108
+						</td><td>4495.7
+						</td><td>3027.5
+						</td><td>0
+						</td><td>0
+						</td><td>4950.4
+						</td><td>кирпичные
+						</td></tr><tr><td>81
+						</td><td>Фестивальная ул., д.15 к.3
+						</td><td>П-29
+						</td><td>ЖСК
+						</td><td>1964
+						</td><td>21409
+						</td><td>9
+						</td><td>3
+						</td><td>99
+						</td><td>4369
+						</td><td>2672
+						</td><td>132.8
+						</td><td>0
+						</td><td>4955.1
+						</td><td>кирпичные
+						</td></tr><tr><td>82
+						</td><td>Фестивальная ул., д.17 к.1
+						</td><td>Инд.
+						</td><td>Департ.
+						</td><td>2004
+						</td><td>44723
+						</td><td>24
+						</td><td>1
+						</td><td>140
+						</td><td>8599.9
+						</td><td>4494.4
+						</td><td>370.7
+						</td><td>0
+						</td><td>10943.2
+						</td><td>жел/бетон
+						</td></tr><tr><td>83
+						</td><td>Фестивальная ул., д.19
+						</td><td>II-18
+						</td><td>ЖСК
+						</td><td>1965
+						</td><td>15279
+						</td><td>12
+						</td><td>1
+						</td><td>84
+						</td><td>3586
+						</td><td>2251.7
+						</td><td>0
+						</td><td>3250
+						</td><td>4371.9
+						</td><td>блочные
+						</td></tr><tr><td>84
+						</td><td>Фестивальная ул., д.23
+						</td><td>ІІ-18
+						</td><td>ЖСК
+						</td><td>1965
+						</td><td>15294
+						</td><td>12
+						</td><td>1
+						</td><td>84
+						</td><td>3610
+						</td><td>2082
+						</td><td>325.9
+						</td><td>0
+						</td><td>4042.6
+						</td><td>блочные
+						</td></tr><tr><td>85
+						</td><td>Фестивальная ул., д.25
+						</td><td>ІІ-18
+						</td><td>ЖСК
+						</td><td>1965
+						</td><td>15281
+						</td><td>12
+						</td><td>1
+						</td><td>84
+						</td><td>3601
+						</td><td>2296
+						</td><td>76.4
+						</td><td>0
+						</td><td>4351.2
+						</td><td>блочные
+						</td></tr><tr><td>86
+						</td><td>Фестивальная ул., д.27
+						</td><td>II-18
+						</td><td>ЖСК
+						</td><td>1965
+						</td><td>15344
+						</td><td>12
+						</td><td>1
+						</td><td>84
+						</td><td>3586.1
+						</td><td>2249.4
+						</td><td>0
+						</td><td>3340
+						</td><td>4122.4
+						</td><td>блочные
+						</td></tr><tr><td>87
+						</td><td>Фестивальная ул., д.39 к.1
+						</td><td>П-68 II К
+						</td><td>Департ.
+						</td><td>1982
+						</td><td>23256
+						</td><td>12
+						</td><td>1
+						</td><td>80
+						</td><td>3823.1
+						</td><td>2351
+						</td><td>1197.4
+						</td><td>0
+						</td><td>4499.9
+						</td><td>панельные
+						</td></tr><tr><td>88
+						</td><td>Фестивальная ул., д.41 к.2
+						</td><td>Инд.
+						</td><td>Департ.
+						</td><td>2010
+						</td><td>65132
+						</td><td>20-22
+						</td><td>2
+						</td><td>238
+						</td><td>12429.7
+						</td><td>6644
+						</td><td>388.9
+						</td><td>
+						</td><td>18009.6
+						</td><td>жел/бетон
+						</td></tr><tr><td>89
+						</td><td>Фестивальная ул., д.41 к.3
+						</td><td>Инд
+						</td><td>Департ.
+						</td><td>2010
+						</td><td>65377
+						</td><td>20-22
+						</td><td>2
+						</td><td>238
+						</td><td>12507.1
+						</td><td>6705
+						</td><td>386.6
+						</td><td>
+						</td><td>17268
+						</td><td>жел/бетон
+						</td></tr></tbody></table></div>
+				</div>
+			</div>
+		</div>
+		<div class="navbar">
+			<div class="container">
+				<div class="row">
+					<ul class="collection with-header col l4 s12 ">
+						<li class="collection-header "><h4>Отчетность</h4></li>
+						<li class="collection-item"><div>Годовая отчетность<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+						<li class="collection-item"><div>Расчеты с ресурсными организациями<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+						<li class="collection-item"><div>Ежемесячная отчетность<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+						<li class="collection-item"><div>Договоры с ресурсными организациями<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+						<li class="collection-item"><div>Дополнительные доходы ТСЖ<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+						<li class="collection-item"><div>Содержание и обслуживание дома<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+					</ul>
+					<ul class="collection with-header col l4 s12 ">
+						<li class="collection-header"><h4>Общение</h4></li>
+						<li class="collection-item "><div>Фотогалерея<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+						<li class="collection-item"><div>Видео<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+						<li class="collection-item"><div>Форум<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+					</ul>
+					<ul class="collection with-header col l4 s12 ">
+						<li class="collection-header "><h4 >Информация</h4></li>
+						<li class="collection-item"><div>Новости<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+						<li class="collection-item"><div>Собрания собственников<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</main>
+<footer class="page-footer blue darken-1">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2018 Copyright
+            <a class="grey-text text-lighten-4 right" href="#!">Design Polevoy</a>
+            </div>
+          </div>
+        </footer>
+<script src="js/libs.min.js"></script>	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

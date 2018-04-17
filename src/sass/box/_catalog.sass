@@ -1,0 +1,67 @@
+.catalog
+	padding: 90px 0
+	.middle
+		display: flex
+		flex-direction: row
+		flex-wrap: wrap
+		justify-content: flex-start
+		@media(max-width:960px)
+			justify-content: center
+			flex-wrap: wrap
+	&_element
+		max-width: 17.5rem
+		margin: .7rem
+		border-radius: 3px
+		border: 1px solid #e5e5e5
+		padding: 47px 26px 40px
+		box-sizing: border-box
+		@media(max-width:960px)
+			max-width: 45%
+		@media(max-width:480px)
+			max-width: 80%
+		&__text
+			display: flex
+			flex-direction: row
+			flex-wrap: nowrap
+			justify-content: space-between
+			@media(max-width:960px)
+				flex-direction: column
+		&_img
+			min-height: 7rem
+		img
+			width: 100%
+		span.color
+			display: block
+			padding: .3rem
+			text-transform: uppercase
+			font:
+				family: $RS
+				weight: 500
+				size: 0.5rem
+			background: #de002c
+			color: #ffffff
+			margin-bottom: 14px
+			&.red
+				background: #de002c
+			&.blue
+				background: #005aff
+		.box
+			display: flex
+			justify-content: flex-start
+			align-items: baseline
+			align-content: flex-start
+			flex-direction: column
+			max-width: 60%
+			a
+				font:
+					size: 1rem
+				text-decoration: underline
+				color: #0178d6
+		.price
+			padding: 37px 0
+			font:
+				size: 1.1rem
+				weight: bold
+			span
+				font:
+					family: $MC

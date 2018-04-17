@@ -1,0 +1,129 @@
+.container
+	img
+		width: auto
+		@media(max-width: 760px)
+			width: 100%
+	p
+		strong
+			font:
+				weight: bold
+	.collection
+		&-item
+			color: #000000 !important
+			&.active
+				background-color: $color-blue !important
+				color: #ffffff !important
+	table
+		a
+			color: #3f51b5 !important
+	.gallery_container
+		height: 40rem !important
+		a
+			width: 20rem
+			height: 30rem
+			img
+	.tabs_js
+		tbody
+			tr
+				&:nth-child(2)
+					text-align: center
+					font:
+						weight: bold
+					text-align: center
+				&:nth-child(3)
+					text-align: center
+					font:
+						weight: bold
+					text-align: center
+	.contractor
+		.tabs
+			.indicator
+				background-color: #3949ab 
+			.tab
+				a
+					color: #ffffff !important
+					&:focus
+						background-color: rgba(57, 73, 171, 0.31)
+					&.active
+
+
+		.card-title
+			color: #ffffff
+		p
+			color: #ffffff
+			font:
+				size: 1rem
+	.B_crumbBox
+		padding: 0 .75rem
+		display: flex
+		flex-direction: row
+		li
+			padding: .1rem .5rem
+			border-radius: 4px
+			color: #ffffff
+		a
+			color: #ffffff
+.tr_contact
+	@media(max-width: 760px)
+		display: flex
+		justify-content: center
+		flex-direction: column
+
+.tickets-row
+	@extend .col,.l12,.s12,.teal
+	margin-top: 1rem  
+
+	color: #ffffff
+	&:nth-child(2n + 1)
+	 @extend .indigo,.lighten-1 
+	.content
+		font:
+			size: .9rem
+		margin: 1rem 0
+		@media(max-width: 960px)
+			font:
+				size: 1.2rem
+		.ticket-read-more
+			background: #039be5
+	h3
+		font:
+			size: 1rem
+		margin: 1rem 0
+		a
+			font:
+				size: 1.2rem
+			color: #ffffff
+	.ticket-meta
+		padding: .5rem 1rem
+		a
+			color: #ffffff 
+			padding: .4rem .5rem
+			@extend .light-blue,.darken-1
+.comments,#comment-new-link,#comment-form-placeholder
+	@extend .col,.l12,.s12 
+.well.create
+	@extend .col,.l8,.s12
+	margin: 1rem 0
+	label
+		color: #039be5
+		font:
+			size: 1rem
+	#ticket-files-container
+		margin: 1rem 0
+	#ticket-files-select
+		@extend .indigo,.lighten-1
+		color: #ffffff
+		padding: 1rem
+.tabs_js
+	font:
+		size: .7rem
+	tr
+		td
+			&:nth-child(2n)
+				background: rgba(66, 165, 245, .2)
+///////////////////////////MAPS///////////////////----------------
+#map
+	height: 30rem
+///////////////////////////MAPS///////////////////----------------
+
+

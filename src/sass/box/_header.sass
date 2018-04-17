@@ -1,0 +1,104 @@
+header
+	box-shadow: 0px 11px 35px 0px rgba(0,0,0,0.33)
+	img
+		width: 50%
+		
+	.middle
+		display: flex
+		justify-content: space-between
+		@media(max-width:1100px)
+			flex-direction: column
+	.logo
+		max-width: 28rem
+		display: flex
+		flex-direction: row
+		justify-content: flex-start
+		a
+			max-width: 30%
+			img
+				width: 100%
+		.text_site_name
+			width: 75%
+			display: flex
+			justify-content: center
+			align-items: center
+			font:
+				weight: bold
+				size: 1.8rem
+		@media(max-width: 480px)
+			//max-width: 10rem
+	.menu
+		ul
+			display: flex
+			flex-direction: row
+			justify-content: flex-start
+			margin: 0
+			@media(max-width:1100px)
+				justify-content: center
+			li
+				//margin: .2rem .5rem
+				a
+					text-transform: uppercase
+					padding: .8rem .6rem
+					display: block
+					transition: background 1s
+					color: $color-blue-3
+					font:
+						weight: bold
+						size: 1rem
+					&:hover
+						background: $color-blue
+						color: #ffffff
+			
+	.contact__form
+		border-bottom: 1px solid $cl-gray-op
+		@extend .df-jc
+		justify-content: space-between
+		a
+			color: $color-blue-3
+			font:
+				size: 1.2rem
+			display: flex
+			justify-content: center
+			flex-direction: row
+			margin: .5rem 1rem
+			padding: 1rem 0rem
+			&.adress
+				@media(max-width: 960px)
+					display: none
+		@media(max-width: 480px)
+			display: none
+			a
+				margin: 0rem auto
+				padding: .3rem 0
+	&__info-block
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		&>div
+			padding: .3rem 1rem
+.header-menu
+	background: #ffffff
+	box-shadow: none !important
+	a
+		color: $color-blue-3 !important
+	.sidenav-close
+				display: none
+	.background
+		img
+			width: 1000% !important
+			height: 100% !important
+	.user-infolist
+		display: none
+		@media(max-width:960px)
+			display: block
+.dropdown-content
+	li
+		&>a
+			font:
+				size: 12px !important
+.sidenav
+	li
+		&>a
+			height: auto
+	
